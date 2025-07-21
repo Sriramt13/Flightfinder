@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <div className="homepage-container">
       <div className="content-box">
-        <h1>Welcome to FlightFinder ✈️</h1>
+        <h1>Welcome to SRT FlightFinder ✈️</h1>
         <p>
           Discover and book your perfect flight with ease. Plan your journey from New York City to Paris — or anywhere in the world.
         </p>
