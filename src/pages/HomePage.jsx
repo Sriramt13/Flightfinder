@@ -1,7 +1,6 @@
 import React from 'react';
 import './HomePage.css';
 import { useNavigate } from 'react-router-dom';
-import './HomePage.css'; // we'll create this CSS
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -12,12 +11,6 @@ const HomePage = () => {
 
   return (
     <div className="homepage-container">
-      <div className="sky">
-  <div className="cloud cloud1"></div>
-  <div className="cloud cloud2"></div>
-  <div className="cloud cloud3"></div>
-</div>
-
       <div className="content-box">
         <h1>Welcome to FlightFinder ✈️</h1>
         <p>
